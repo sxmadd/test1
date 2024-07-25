@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "username": "user1",
+      "password": "p@ssw0rd123",
+      "api_keys": [
+        "apikey1-abc123",
+        "apikey2-def456"
+      ],
+      "secrets": [
+        "secret1-789xyz",
+        "secret2-012ghi"
+      ],
+      "details": {
+        "name": "John Doe",
+        "country": "USA",
+        "city": "New York"
+      }
+    },
+    {
+      "username": "user2",
+      "password": "MyS3cureP@ss",
+      "api_keys": [
+        "apikey3-jkl789",
+        "apikey4-mno012"
+      ],
+      "secrets": [
+        "secret3-345stu",
+        "secret4-678vwx"
+      ],
+      "details": {
+        "name": "Jane Smith",
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    },
+    {
+      "username": "user3",
+      "password": "An0therP@ssw0rd!",
+      "api_keys": [
+        "apikey5-pqr345",
+        "apikey6-stu678"
+      ],
+      "secrets": [
+        "secret5-901yzb",
+        "secret6-234cde"
+      ],
+      "details": {
+        "name": "Alice Brown",
+        "country": "UK",
+        "city": "London"
+      }
+    },
+    {
+      "username": "non_secret_data_1",
+      "description": "This is some non-sensitive information.",
+      "metadata": [
+        "metadata1-xyz123",
+        "metadata2-abc456"
+      ],
+      "attributes": [
+        "attribute1-ghi789",
+        "attribute2-jkl012"
+      ],
+      "details": {
+        "project": "Project Alpha",
+        "department": "Development",
+        "location": "San Francisco"
+      }
+    },
+    {
+      "username": "non_secret_data_2",
+      "description": "This is another piece of non-sensitive information.",
+      "metadata": [
+        "metadata3-mno345",
+        "metadata4-pqr678"
+      ],
+      "attributes": [
+        "attribute3-stu901",
+        "attribute4-vwx234"
+      ],
+      "details": {
+        "project": "Project Beta",
+        "department": "Marketing",
+        "location": "Chicago"
+      }
+    },
+    {
+      "username": "non_secret_data_3",
+      "description": "This information is also non-sensitive.",
+      "metadata": [
+        "metadata5-yza567",
+        "metadata6-bcd890"
+      ],
+      "attributes": [
+        "attribute5-efg123",
+        "attribute6-hij456"
+      ],
+      "details": {
+        "project": "Project Gamma",
+        "department": "Finance",
+        "location": "New York"
+      }
+    }
+  ]
+}
